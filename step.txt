@@ -1,0 +1,18 @@
+virtualenv toolunu yukleyirik  - pip install virtualenv
+virtual muhitinin yaradilmasi(layihemiz ucun) - virtualenv site
+site\Scripts\activate - virtual muhiti aktiv etmek
+(site) C:.... > bu aktiv edildiyini gosterir
+pip install django - django yuklemek
+django projectin yaradilmasi - django-admin startproject projectname .
+python manage.py runserver
+migration - python manage.py migrate (deafult verilen modelleri migrate edir)
+saytimiza superuser yaratmaq = python manage.py createsuperuser
+app yaratmaq - python manage.py startapp appname
+setting.py faylina tanitiriq
+------------------------------------
+yaratdiqimiz modeli migrasiya etmek - python manage.py makemigrations , 
+python manage.py migrate
+
+
+
+
